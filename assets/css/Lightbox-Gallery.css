@@ -38,7 +38,6 @@
 
 .photo-gallery .item {
   padding-bottom: 30px;
-  overflow: hidden;
   transition: transform .5s ease;
 }
 
