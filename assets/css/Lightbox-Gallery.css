@@ -41,3 +41,33 @@
   transition: transform .5s ease;
 }
 
+@media (min-width: 1964px) {
+  .masthead {
+    background-size: 100%!important;
+  }
+}
+
+@media (min-width: 1964px) {
+  #about {
+    background-size: 100%!important;
+  }
+}
+
+@media (min-width: 1964px) {
+  #about-1 {
+    background-size: 100%!important;
+  }
+}
+
+@media (min-width: 1964px) {
+  #trajet {
+    background-size: 100%!important;
+  }
+}
+
+@media (min-width: 992px) {
+  #participants {
+    background-size: 100%!important;
+  }
+}
+
