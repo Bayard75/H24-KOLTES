@@ -70,14 +70,14 @@
             </div>
         </div>
     </section>
-    <section id="trajet" class="download-section content-section text-center" style="background: url(&quot;assets/img/photo_le_trajet.png&quot;) center no-repeat;">
+    <section id="trajet" class="download-section content-section text-center" style="background: url(&quot;assets/img/photo_le_trajet.png&quot;) center no-repeat;padding: 0;">
         <div class="container">
             <h1>LE TRAJET</h1>
-            <div class="row row-cols-2 text-center">
+            <div class="row row-cols-2 text-center d-flex flex-column-reverse">
                 <div class="col-lg-8 col-xl-5 mx-auto">
-                    <p style="font-size: 25px;"><br>En passant par République, Gare de l’Est, Les Halles,<br>et Strasbourg Saint-Denis, l’enjeu est de faire entendre<br>notre engagement au travers de cette pièce.<br><br></p>
-                    <p style="font-size: 25px;">A partir des points relais vous pouvez retrouver à toute heure un.e bénévole pour vous informer</p>
-                    <p style="font-size: 25px;">Vous pouvez aussi suivre en temps réel la déambule des comédien.ne.s ci dessous !</p>
+                    <p style="font-size: 20px;"><br>En passant par République, Gare de l’Est, Les Halles,<br>et Strasbourg Saint-Denis, l’enjeu est de faire entendre<br>notre engagement au travers de cette pièce.<br><br></p>
+                    <p style="font-size: 20px;">A partir des points relais vous pouvez retrouver à toute heure un.e bénévole pour vous informer</p>
+                    <p style="font-size: 20px;">Vous pouvez aussi suivre en temps réel la déambule des comédien.ne.s ci dessous !</p>
                 </div>
                 <div class="col-lg-8 col-xl-6 text-right align-self-center mx-auto"><img src="assets/img/337165076_239004461825756_6304016845611893091_n.png" style="width: 100%;"></div>
             </div>
@@ -87,6 +87,19 @@
 <script async 
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCoaYRdJCzs15gqJJAJB-eZ3TEdj-1ThWo&callback=initMap">
 </script>
+<script async defer > async var myLatlng = new google.maps.LatLng(48.866924,2.363339);
+var mapOptions = {
+  zoom: 15,
+  center: myLatlng
+}
+var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+
+var marker = new google.maps.Marker({
+    position: myLatlng,
+    title:"Hello World!"
+});
+setMap();
+// To add the marker to the map, call setMap();</script>
 </div>
     <section data-aos="fade" id="participants" class="download-section content-section text-center" style="background: url(&quot;assets/img/photo%20les%20come╠üdiens.jpeg&quot;) center no-repeat;padding-bottom: 0px;padding-top: 0px;">
         <div class="container">
